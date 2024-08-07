@@ -2,80 +2,55 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Aula 02 - Listas</tItle>
+        <title>Aula Tabela</title>
     </head>
-
-    <style>
-        html {
-            margin: auto;
-            width: 50%;
-        }
-        
-        h2 {
-            color: red;
-        }
-        .atividades {
-            background-color: aliceblue;
-        }
-
-        .atividades:hover{
-            background-color: rgb(161, 171, 171);
-        }
-
-    </style>
-
     <body>
-    <h1>10 atividades referentes a minha rotina.</h1>
-    <ul class="atividades">
-        <li>Dormir</li>
-        <li>Trabalhar</li>
-        <li>Jogar Video Game</li>
-        <li>Estudar</li>
-        <li>Tocar Violão</li>
-        <li>Ficar com minha Esposa</li>
-        <li>Comer</li>
-        <li>Ir a Academia</li>
-        <li>Andar de Bike</li>
-        <li>Rezar</li>
-    </ul>
-
-    <hr>
-    
-    <h2>10 passos para o Strogonoff Perfeito.</h2>
-    <ol>
-        <li>Separar os alimentos</li>
-        <li>Alimentos: Arroz, Carne, Creme de Leite, Cebola, temperos</li>
-        <li>Corta a carne em cubos</li>
-        <li>Pica a cebola</li>
-        <li>Frita a cebola</li>
-        <li>Frita a Carne</li>
-        <li>Retira a carne, e com a água que soltou, mistura creme de leite</li>
-        <li>Devolve a carne</li>
-        <li>Cozinha um arroz soltinho</li>
-        <li>Serve arroz, strogonoff com batata palha</li>
-    </ol>
-
-    <hr>
-    
-    <h3>Lista de compras</h3>
-    <ol>
-        <li>Produtos Prioritarios</li>
-        <ul>
-            <li>Itens de Higiente Pessoal</li>
-            <li>Água</li>
-        </ul>
-        <li>Frutas e Verdurass</li>
-        <ul>
-            <li>Batata</li>
-            <li>Melancia</li>
-            <li>Cebola</li>
-        </ul>
-        <li>Café da manhã</li>
-        <ul>
-            <li>Pão</li>
-            <li>Leite</li>
-            <li>Geleia</li>
-        </ul>
-    </ol>
+        <!-- Isso aqui é uma tabela -->
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <hr>
+        <br>
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Camiseta Polo</td>
+                <td>R$ 29,99</td>
+                <td>2</td>
+                <td>R$ 60,00</td>
+            </tr>
+            <tr>
+                <td>Calca Jeans</td>
+                <td>R$ 89,99</td>
+                <td>1</td>
+                <td>R$ 89,99</td>
+            </tr>
+            <tr>
+                <td>Tenis Nike</td>
+                <td>R$ 149,90</td>
+                <td>2</td>
+                <td>R$ 299,90</td>
+            </tr>
+            <tr>
+                <td colspan="3"> Total Geral</td>
+                <td>R$ 390,00</td>
+            </tr>
+        </table>
     </body>
 </html>
