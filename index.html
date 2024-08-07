@@ -2,54 +2,60 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Aula Tabela</title>
+        <title>Trabalho Semana</title>
+        <style>
+            table {
+                width: 50%;
+                margin: auto;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <!-- Isso aqui é uma tabela -->
-        <table>
+        <table border="1">
             <tr>
-                <th>Nome</th>
-                <th>Idade</th>
+                <th>Horários</th>
+                <th>Segunda-Feira</th>
+                <th>Terça-Feira</th>
+                <th>Quarta-Feira</th>
+                <th>Quinta-Feira</th>
+                <th>Sexta-Feira</th>
             </tr>
             <tr>
-                <td>João</td>
-                <td>20</td>
+                <td>8-9h</td>
+                <td>Português</td>
+                <td>Inglês</td>
+                <td>Matematica</td>
+                <td>Historia</td>
+                <td>Artes</td>
             </tr>
             <tr>
-                <td>Maria</td>
-                <td>25</td>
-            </tr>
-        </table>
-        <hr>
-        <br>
-        <table>
-            <tr>
-                <th>Produto</th>
-                <th>Preço</th>
-                <th>Quantidade</th>
-                <th>Total</th>
+                <td>9-10h</td>
+                <td>Inglês</td>
+                <td>Português</td>
+                <td>Historia</td>
+                <td>Artes</td>
+                <td>Matematica</td>
             </tr>
             <tr>
-                <td>Camiseta Polo</td>
-                <td>R$ 29,99</td>
-                <td>2</td>
-                <td>R$ 60,00</td>
+                <td>10-10:30h</td>
+                <!-- colspan solicitado -->
+                <td colspan="7">Recreio</td>
             </tr>
             <tr>
-                <td>Calca Jeans</td>
-                <td>R$ 89,99</td>
-                <td>1</td>
-                <td>R$ 89,99</td>
+                <td>10:30 - 11h</td>
+                <!-- Pesquisando descobri o rowspan -->
+                <td rowspan="2">Português</td>
+                <td>Matematica</td>
+                <td>Artes</td>
+                <td>Ingles</td>
+                <td rowspan="2">Moodle</td>
             </tr>
             <tr>
-                <td>Tenis Nike</td>
-                <td>R$ 149,90</td>
-                <td>2</td>
-                <td>R$ 299,90</td>
-            </tr>
-            <tr>
-                <td colspan="3"> Total Geral</td>
-                <td>R$ 390,00</td>
+                <td>11-12h</td>
+                <td>Artes</td>
+                <td>Ingles</td>
+                <td>Educacao Fisica</td>
             </tr>
         </table>
     </body>
